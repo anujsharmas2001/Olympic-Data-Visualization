@@ -1,0 +1,99 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("11.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .card {
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    padding: 40px;
+    width: 250px;
+    background-color: rgba(177, 184, 243, 0.4); /* Updated to transparent background */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px); /* Added blur effect */
+  }
+  
+  .auth-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .auth-option {
+    background-color: #d63636;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555555;
+  }
+  
+  .auth-option.active {
+    background-color: #eaf0ff;
+    color: #000000;
+  }
+  
+  .auth-form {
+    /* Form styles */
+  }
+  
+  .textbox {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  /* Login Button */
+  .login-button {
+    background-color: #2196f3; /* Set the desired background color */
+    color: #fff; /* Set the desired text color */
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 5px;
+    width: 108%;
+  }
+  
+  /* Signup Button */
+  .signup-button {
+    background-color: #2196f3; /* Set the desired background color */
+    color: #fff; /* Set the desired text color */
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 5px;
+    width: 108%;
+  }
+  .text{
+    color:#264a68;
+    font-size: 70px;
+    font-family: fantasy;
+  }
+  .login{
+    background-color: #2196f3; /* Set the desired background color */
+    color: #fff; /* Set the desired text color */
+    font-size: 25px;
+    border-radius: 6px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 150px; 
+
+  }
+  .tabs {
+    display: flex; /* Use flexbox */
+   
+  }
